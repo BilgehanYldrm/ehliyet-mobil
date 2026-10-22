@@ -138,23 +138,7 @@ class DisclaimerPage extends StatelessWidget {
                     text:
                         'Uygulama hakkında sorularınız, önerileriniz veya geri bildirimleriniz için:\n\n',
                     style: TextStyle(fontSize: 14, height: 1.6),
-                  ),
-                  const TextSpan(
-                    text: 'Instagram: @burakgul1006\n',
-                    style: TextStyle(fontSize: 14, height: 1.6),
-                  ),
-                  const TextSpan(
-                    text: 'TikTok: @eyuphurkan44\n',
-                    style: TextStyle(fontSize: 14, height: 1.6),
-                  ),
-                  const TextSpan(
-                    text: 'Telefon (Burak Gül): +90 542 658 85 30\n',
-                    style: TextStyle(fontSize: 14, height: 1.6),
-                  ),
-                  const TextSpan(
-                    text: 'E-posta: burakgul3085@gmail.com\n',
-                    style: TextStyle(fontSize: 14, height: 1.6),
-                  ),
+                  
                   const TextSpan(
                     text: 'Yazılım ve uygulama geliştirme desteği: ',
                     style: TextStyle(fontSize: 14, height: 1.6),
@@ -163,7 +147,7 @@ class DisclaimerPage extends StatelessWidget {
                     alignment: PlaceholderAlignment.baseline,
                     baseline: TextBaseline.alphabetic,
                     child: GestureDetector(
-                      onTap: () => _launchUrl('https://www.linkedin.com/in/burakgul1006/'),
+                      onTap: () => _launchUrl('https://www.linkedin.com/in/bilgehan-yıldırım--/'),
                       child: Text(
                         'https://www.linkedin.com/\n',
                         style: TextStyle(

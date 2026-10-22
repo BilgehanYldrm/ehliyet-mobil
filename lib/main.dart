@@ -63,10 +63,10 @@ class _EhliyetAppState extends State<EhliyetApp> {
               const SizedBox(height: 8),
               Row(
                 children: [
-                  const Expanded(child: Text('Burak Gül')),
+                  const Expanded(child: Text('Bİlgehan Yıldırım')),
                   TextButton(
                     onPressed: () async {
-                      final uri = Uri.parse('https://www.linkedin.com/in/burakgul1006/');
+                      final uri = Uri.parse('https://www.linkedin.com/in/bilgehan-yıldırım--/');
                       if (await canLaunchUrl(uri)) {
                         await launchUrl(
                           uri,
@@ -74,7 +74,7 @@ class _EhliyetAppState extends State<EhliyetApp> {
                         );
                       }
                     },
-                    child: const Text('linkedln.com/burakgul1006'),
+                    child: const Text('linkedln.com/bilgehan-yıldırım--'),
                   ),
                 ],
               ),
@@ -109,13 +109,13 @@ class _EhliyetAppState extends State<EhliyetApp> {
                     onPressed: () async {
                       final uri = Uri(
                         scheme: 'mailto',
-                        path: 'burakgul3085@gmail.com',
+                        path: 'by02004@gmail.com',
                       );
                       if (await canLaunchUrl(uri)) {
                         await launchUrl(uri);
                       }
                     },
-                    child: const Text('burakgul3085@gmail.com'),
+                    child: const Text('bby02004@gmail.com'),
                   ),
                 ],
               ),
@@ -148,7 +148,7 @@ class _EhliyetAppState extends State<EhliyetApp> {
           TextButton(
             onPressed: () async {
               final uri = Uri.parse(
-                'https://github.com/Burakgul3085/',
+                'https://github.com/BilgehanYldrm',
               );
               if (await canLaunchUrl(uri)) {
                 await launchUrl(uri, mode: LaunchMode.externalApplication);
@@ -408,11 +408,11 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(height: 8),
               Row(
                 children: [
-                  const Expanded(child: Text('Burak Gül')),
+                  const Expanded(child: Text('Bilgehan Gül')),
                   TextButton(
                     onPressed: () async {
                       final uri = Uri.parse(
-                          'https://www.linkedin.com/in/burakgul1006/');
+                          'https://www.linkedin.com/in/bilgehan-yıldırım--/');
                       if (await canLaunchUrl(uri)) {
                         await launchUrl(
                           uri,
@@ -420,7 +420,7 @@ class _HomePageState extends State<HomePage> {
                         );
                       }
                     },
-                    child: const Text('linkedln.com/burakgul1006'),
+                    child: const Text('linkedln.com/bilgehan-yıldırım--'),
                   ),
                 ],
               ),
@@ -456,13 +456,13 @@ class _HomePageState extends State<HomePage> {
                     onPressed: () async {
                       final uri = Uri(
                         scheme: 'mailto',
-                        path: 'burakgul3085@gmail.com',
+                        path: 'by02004@gmail.com',
                       );
                       if (await canLaunchUrl(uri)) {
                         await launchUrl(uri);
                       }
                     },
-                    child: const Text('burakgul3085@gmail.com'),
+                    child: const Text('by02004@gmail.com'),
                   ),
                 ],
               ),
@@ -495,7 +495,7 @@ class _HomePageState extends State<HomePage> {
           TextButton(
             onPressed: () async {
               final uri = Uri.parse(
-                'https://github.com/Burakgul3085/',
+                'https://github.com/BilgehanYldrm',
               );
               if (await canLaunchUrl(uri)) {
                 await launchUrl(uri, mode: LaunchMode.externalApplication);
@@ -751,7 +751,7 @@ Future<void> _loadProgress() async {
 
   Future<void> _openInstagram() async {
     const String instagramUrl =
-        'https://www.linkedin.com/in/burakgul1006/';
+        'https://www.linkedin.com/in/bilgehan-yıldırım--/';
     final uri = Uri.parse(instagramUrl);
 
     if (await canLaunchUrl(uri)) {
@@ -776,7 +776,7 @@ Future<void> _loadProgress() async {
 
   Future<void> _openTikTok() async {
     const String tiktokUrl =
-        'https://www.linkedin.com/in/burakgul1006/';
+        'https://www.linkedin.com/in/bilgehan-yıldırım--/';
     final uri = Uri.parse(tiktokUrl);
     if (await canLaunchUrl(uri)) {
       final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
